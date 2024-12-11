@@ -1,0 +1,135 @@
+.side_bar {
+    width: fit-content;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-color: var(--primary-color);
+    overflow-y: scroll;
+    scrollbar-width: 0px;
+    -ms-overflow-style: none;
+    z-index: 100;
+  }
+  .side_bar_items a:hover {
+    background: var(--button-bg-color);
+    border-radius: 16px 0% 0% 16px;
+  }
+  .side_bar_items a:hover h4 {
+    color: var(--primary-color);
+  }
+  .side_bar_items .active {
+    background: var(--button-bg-color);
+    border-radius: 16px 0% 0% 16px;
+  }
+  .side_bar_items .active h4 {
+    color: var(--primary-color);
+  }
+  .nav_icon_container {
+    z-index: 10;
+    padding: 20px 0px;
+  }
+  .show_list {
+    display: block !important;
+  }
+  .nav_icon_container {
+    display: none;
+  }
+  .side_logo {
+    border-left: solid 2px var(--greey-color);
+  }
+  @media only screen and (max-width: 768px) {
+    .teacher_name {
+      display: none;
+    }
+    .contact_us_btn{
+      font-size: 11px;
+      min-width: 60px !important;
+    }
+  }
+  .collapse_Side {
+    width: 90px;
+  }
+  .collapse_Side .nav_title,
+  .collapse_Side .text_logo {
+    display: none;
+  }
+  .side_bar .list svg {
+    scale: 1.5;
+  }
+  .collapse_Side .list svg {
+    scale: 2;
+  }
+  .wide_top_nav {
+    padding-right: 90px !important;
+  }
+  .wide_main {
+    padding-right: 130px !important;
+    padding-left: 40px;
+  }
+  .warning{
+    padding-right: 290px;
+    padding-left: 30px;
+  }
+  .wide_warning{
+    padding-right: 130px !important;
+    padding-left: 30px;
+  
+  }
+  .top_nav {
+    z-index: 10;
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: fixed;
+    padding-right: 260px;
+  }
+  /* search input */
+  .submit_searchBtn:hover svg path {
+    fill: var(--primary-color);
+    stroke: var(--primary-color);
+  }
+  /* pagination */
+  .pagination {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* students */
+  .students_taple th {
+    border: solid 1px white;
+  }
+  .odd_row_bg {
+    background-color: #f5f7fa;
+  }
+  .students_taple td {
+    border: solid 1px #dde4ee;
+    padding: 20px 5px;
+    text-align: center;
+  }
+  .delete_students_btn {
+    border: solid 2px var(--failed-color);
+    color: var(--failed-color);
+    padding: 4px 10px;
+  }
+  @media only screen and (min-width: 1000px) {
+    .student_card {
+      width: 25%;
+    }
+    .soon_card {
+      width: 73%;
+    }
+  }
+  .selected_Color {
+    border: solid 2px gray !important;
+  }
+  body .login_page{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
